@@ -7,8 +7,10 @@ int main() {
     int addition = firstNum + secondNum;
     int subtraction = firstNum - secondNum;
     int multiplication = firstNum * secondNum;
-    cout << addition << endl;
-    cout << subtraction << endl;
-    cout << multiplication << endl;
+    int division = firstNum / secondNum;
+    cout << "Addition: " << addition << endl;
+    cout << "Subtraction: " << subtraction << endl;
+    cout << "Multiplication: " << multiplication << endl;
+    cout << "Division: " << division << endl;
     return 0;
 }
